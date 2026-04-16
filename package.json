@@ -1,0 +1,45 @@
+{
+  "name": "task-management-app",
+  "version": "1.0.0",
+  "description": "Node Js Task  Build a Task Management &amp; Productivity Analytics System where users can create tasks, mark them complete, and the system calculates productivity scores (based on completion rate, time taken, etc.) along with APIs for daily/weekly stats using DB aggregation queries.  Please note that UI isn't important but functionality is.",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuldeepsen134/task-management-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/kuldeepsen134/task-management-app/issues"
+  },
+  "homepage": "https://github.com/kuldeepsen134/task-management-app#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.3.2",
+    "helmet": "^8.1.0",
+    "joi": "^18.1.2",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.4.1",
+    "passport": "^0.7.0",
+    "redis": "^5.12.1",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.2.2"
+  }
+}
